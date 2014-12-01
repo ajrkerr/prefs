@@ -1,0 +1,18 @@
+[core]
+	commentchar = $
+	excludesfile = /Users/adamkerr/.gitignore_global
+[user]
+	name = Adam Kerr
+	email = adamk@nulogy.com
+[push]
+	default = simple
+[color]
+	branch = auto
+	diff = auto
+	ui = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
