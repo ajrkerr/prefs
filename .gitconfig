@@ -16,3 +16,23 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	shash = stash
+	sash = stash
+	fixup = commit --amend --no-edit
+	lgo = log
+	ocmmit = commit
+	meregtool = mergetool
+	brach = branch
+	stasdh = stash
+	sty = status
+	commti = commit
+	comiit = commit
+	commi = commit
+	search = "rev-list -n 1 HEAD -- "
+	lof = log
+[rebase]
+	autosquash = true
